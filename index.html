@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+  <img style="width: 200px;" src="images/logo.jpg1" alt="Logo">
+  <div class="options">
+    <a href="https://pitchcatalyst.com/differentiator">Differentiator</a>
+    <a href="https://pitchcatalyst.com/how-it-works">Procedure</a>
+    <a href="https://pitchcatalyst.com/our-pricing">Pricing</a>
+    <a href="https://pitchcatalyst.com/about-us">About</a>
+    <a href="https://pitchcatalyst.com/blog">Blog</a>
+    <a href="https://pitchcatalyst.com/team-up">Contact</a>
+    <a href="#">Careers</a>
+    <button style="background-color: black; color: white; border: 2px solid #d4ff00; border-radius: 25px; padding: 12px 25px; display: inline-block; text-decoration: none; transition: all 0.3s ease-in-out;"
+        onmouseover="this.style.transform='scale(1.1)'; this.style.backgroundColor='#d4ff00';"
+        onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='black';">
+  <a href="https://pitch-catalyst-client-dashboard.vercel.app/" style="text-decoration: none;">Login</a>
+</button>
+  </div>
+</header>
+
+<div class="torchlight">
+  <div class="beam top-left"></div>
+  <div class="beam top-right"></div>
+  <div id="main" class="main-container">
+    <h1 style="color: #d4ff00;"><span>W</span><SPan>E</SPan><span>L</span><span>C</span><span>O</span><span>M</span><span>E</span></h1>
+    <div style="text-align: center;">
+    <div class="rotation-container">
+      <img src="images/infinity.png" alt="Rotating Image">
+    </div>
+  </div>
+    <div style="text-align: center;"><button onclick="showSection('whyUs')" class="navigation-btn" style="background-color: black;width: 200px; color: white; border: 2px solid #d4ff00; border-radius: 25px; padding: 12px 25px; display: inline-block; text-decoration: none; transition: all 0.3s ease-in-out;"
+          onmouseover="this.style.transform='scale(1.1)'; this.style.backgroundColor='#d4ff00';"
+          onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='black';">
+    More
+  </button>
+  <h2>ENGAGE . IMPRESS . <span style="color: yellow;">SUCCEED</span></h2>
+</div>
+  </div>
+</div>
+<div id="whyUs" class="section">
+    <button onclick="showSection('main')" class="navigation-btn" style="background-color: black; width: 200px; color: white; border: 2px solid #d4ff00; border-radius: 25px; padding: 12px 25px; display: inline-block; text-decoration: none; transition: all 0.3s ease-in-out;"
+        onmouseover="this.style.transform='scale(1.1)'; this.style.backgroundColor='#d4ff00';"
+        onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='black';">
+  Previous
+    </button>
+    <h2 style="font-size: 36px;">Why Choose Us</h2>
+    <div class="box" style="border: 0.5px solid yellow; box-shadow: 0px 50px 50px rgba(500, 255, 64, 0.1); background: linear-gradient(to bottom, rgb(245, 230, 26), black);" onclick="animateBox(this)">
+      <img src="images/innovate.png" style="width: 100px; height: 100px;" alt="">  <br> 
+      <b style="color: white;">INNOVATE</b> <br>
+        <i>At Hyper-Speed:</i>
+        <p>Leap into tomorrow with us! Your ideas, our tech runway - let's disrupt the universe together. Ready for blast-off? 1</p></div>
+    <div class="box" style="border: 0.5px solid yellow; box-shadow: 0px 50px 50px rgba(500, 255, 64, 0.1); background: linear-gradient(to bottom, rgb(83, 246, 47), black);" onclick="animateBox(this)">
+        
+      <img src="images/creative.png" style="width: 100px; height: 100px;" alt=""> <br>  <b style="color: white;">CREATIVITY</b> <br>
+        <i>Unchained:</i>
+        <p>Where "What if?" meets "Let's do this!" Dive into a sea of possibilities; your innovation paints our tech canvas.Dream, design, celebrate!</p></div>
+    <div class="box" style="border: 0.5px solid yellow; box-shadow: 0px 50px 50px rgba(500, 255, 64, 0.1); background: linear-gradient(to bottom, rgb(245, 230, 26), black);" onclick="animateBox(this)">
+      <img src="images/thrill.png" style="width: 100px; height: 100px;" alt="">     <br>
+      <b style="color: white;">THRILLS</b> <br>
+        <i>Non-Stop:</i>
+        <p>Ride the tech wave with us, where every day's a new adventure. No yawns, just yays! Ready to make some waves?</p></div>
+    <br>
+    <button onclick="showSection('clients')" class="navigation-btn" style="background-color: black; width: 200px; color: white; border: 2px solid #d4ff00; border-radius: 25px; padding: 12px 25px; display: inline-block; text-decoration: none; transition: all 0.3s ease-in-out;"
+        onmouseover="this.style.transform='scale(1.1)'; this.style.backgroundColor='#d4ff00';"
+        onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='black';">Next
+    </button>
+</div>
+<div id="clients" class="section">
+        <button onclick="showSection('whyUs')" class="navigation-btn" style="background-color: black; width: 200px; color: white; border: 2px solid #d4ff00; border-radius: 25px; padding: 12px 25px; display: inline-block; text-decoration: none; transition: all 0.3s ease-in-out;"
+            onmouseover="this.style.transform='scale(1.1)'; this.style.backgroundColor='#d4ff00';"
+            onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='black';">
+      Previous
+    </button>
+    <h2>Our Family</h2>
+      <div class="zoom-container">
+        <img style="text-align: center; width:300px; height: 300px;" src="images/earth.png" alt="Zooming Image">
+      </div>
+    <div class="client-container" onmouseover="pauseMarquee()" onmouseout="resumeMarquee()">
+      <div class="client">
+        <img src="images/proffile.jpg" alt="Profile">
+      </div>
+      <div class="client">
+        <img src="images/outgrown.jpg" alt="Outgrown">
+      </div>
+      <div class="client">
+        <img src="images/humoy.jpg" alt="Humpyfarms">
+      </div>
+      <div class="client">
+        <img src="images/rentainance.jpg" alt="Rentainance">
+      </div>
+      <div class="client">
+        <img src="images/twl.jpg" alt="TWS">
+      </div>
+      <div class="client">
+        <img src="images/microbuster.jpg" alt="Microbusters">
+      </div>
+      <div class="client">
+        <img src="images/elecbits.jpg" alt="Elecbits">
+      </div>
+      <div class="client">
+        <img src="images/alphagamma.jpg" alt="Alphagamma">
+      </div>
+      <div class="client">
+        <img src="images/technostack.jpg" alt="Technostack">
+      </div>
+    </div>
+    <button style="background-color: black; width: 200px; color: white; border: 2px solid #d4ff00; border-radius: 25px; padding: 12px 25px; display: inline-block; text-decoration: none; transition: all 0.3s ease-in-out;"
+        onmouseover="this.style.transform='scale(1.1)'; this.style.backgroundColor='#d4ff00';"
+        onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='black';">
+  <a href="https://pitchcatalyst.zohorecruit.in/jobs/Careers" style="text-decoration: none; color: white;">Apply Now</a>
+</button> <br>
+
+   <button onclick="showSection('socialMedia')" class="navigation-btn" style="background-color: black; width: 200px; color: white; border: 2px solid #d4ff00; border-radius: 25px; padding: 12px 25px; display: inline-block; text-decoration: none; transition: all 0.3s ease-in-out;"
+        onmouseover="this.style.transform='scale(1.1)'; this.style.backgroundColor='#d4ff00';"
+        onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='black';">
+  Next
+</button>
+  </div>
+
+  <div id="socialMedia" class="section">
+    <button onclick="showSection('clients')" class="navigation-btn" style="background-color: black; width: 200px; color: white; border: 2px solid #d4ff00; border-radius: 25px; padding: 12px 25px; display: inline-block; text-decoration: none; transition: all 0.3s ease-in-out;"
+        onmouseover="this.style.transform='scale(1.1)'; this.style.backgroundColor='#d4ff00';"
+        onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='black';">
+  Previous
+</button>
+<div class="sections-container">
+  <div class="section-content">
+    <div class="box" onclick="animateBox(this)">
+      <i class="fas fa-map-marker-alt"></i>
+      <h2>Address</h2>
+      <p>D-112, 60 Feet Rd, Chhatarpur Hills, Pocket D, Chattarpur Enclave, Chhatarpur, New Delhi-110074, India.</p>
+    </div>
+  </div>
+  <div class="section-content">
+    <div class="box" onclick="animateBox(this)">
+      <i class="far fa-envelope"></i>
+      <h2>Email</h2>
+      <p><a style="text-decoration: none; color: black;" href="mailto:sales@pitchcatalyst.com">sales@pitchcatalyst.com</a></p>
+      <p><a style="text-decoration: none; color: black;"href="mailto:info@pitchcatalyst.com">info@pitchcatalyst.com</a></p>
+      <p><a style="text-decoration: none; color: black;" href="mailto:hiring@pitchcatalyst.com">hiring@pitchcatalyst.com</a></p>
+    </div>
+  </div>
+  <div class="section-content">
+    <div class="box" onclick="animateBox(this)">
+      <i class="fas fa-phone-alt"></i>
+      <h2>Contact Us</h2>
+      <p>Phone: +91-9711750002 <br> +91-9811750002</p>
+    </div>
+  </div>
+  <div class="section-content">
+    <div class="box" onclick="animateBox(this)">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <h2>Social Media</h2>
+      <div id="socialMediaList">
+        <a style="text-decoration: none; color: black;" href="https://www.linkedin.com/company/pitch-catalyst/about/" target="_blank"><i class="fab fa-linedin"></i> Linkedin</a> ||
+        <a style="text-decoration: none; color: black;" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a> ||
+        <a style="text-decoration: none; color: black;" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer style="background: linear-gradient(to bottom, #00a318, #9ce223, #ffd700);  color: rgb(0, 0, 0); text-align: center; padding: 50px;">
+  <div>
+    <a href="#" style="text-decoration: none; color: black;">Security & Complaints</a> |
+    <a href="#" style="text-decoration: none; color: black;">Privacy Policy</a> |
+    <a href="#" style="text-decoration: none; color: black;">Cookies Policy</a>
+  </div>
+  <p>&copy; 2024 Your Website. All rights reserved.</p>
+</footer>
+
+
+<script src="script.js" crossorigin="anonymous"></script>
+</body>
+</html>
